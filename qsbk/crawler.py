@@ -3,6 +3,7 @@ import urllib2
 import re
 import thread
 import time
+from bs4 import BeautifulSoup
 
 #Class for QSBK
 class QSBK:
