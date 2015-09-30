@@ -1,0 +1,2 @@
+"snippets":[{"fieldName":"Current","bodyList":["Computer Engineering(Software) Graduate Student ,\u003cstrong class=\"highlight\"\u003eSeeking\u003c/strong\u003e for full time \u003cstrong class=\"highlight\"\u003ejob\u003c/strong\u003e in Software developer at Syracuse University"]},{"fieldName":"Past","bodyList":["Faculty Assistant at School of Information Studies"]},{"fieldName":"Education","bodyList":["Syracuse University","Nankai University"]}]
+

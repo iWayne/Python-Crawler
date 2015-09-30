@@ -1,9 +1,8 @@
+# -*- coding: utf-8 -*-
+
 import requests
 from bs4 import BeautifulSoup
-import sys
-
-reload(sys)
-sys.setdefaultencoding('utf-8')
+import re
 
 client = requests.Session()
 
@@ -24,8 +23,14 @@ post = client.post(LOGIN_URL, data=login_information)
 
 content = client.get('https://www.linkedin.com/vsearch/p?rsid=4004260481443401945874&keywords=seeking%20job&trk=vsrp_people_cluster_header&trkInfo=VSRPsearchId%3A4004260481443401940205,VSRPcmpt%3Apeople_cluster&openFacets=N,G,CC&page_num=1&pt=people')
 
-print content.status_code
+print (content.status_code)
 
 fh = open('test.html','w')
 fh.write(content.text)
 fh.close
+
+pattern = re.compile('snippets":[(.*?)]', re.S)
+items = re.findall(pattern, content.text)
+print (len(items))
+
+
