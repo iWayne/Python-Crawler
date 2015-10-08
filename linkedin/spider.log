@@ -1,0 +1,18 @@
+[2015-10-08 18:42:53] Start to login Linkedin
+[2015-10-08 18:42:54] Get the session
+[2015-10-08 18:42:54] Crawler is running
+[2015-10-08 18:42:54] Crawling page: 1
+[2015-10-08 18:42:56] Reponse Code:  200
+[2015-10-08 18:42:56] Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode1.txt
+[2015-10-08 18:42:56] Find 10 Snippets
+[2015-10-08 18:42:56] OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets1.txt
+[2015-10-08 18:42:56] Finish Storage
+[2015-10-08 18:42:56] Finish page # 1
+[2015-10-08 18:43:06] Crawling page: 2
+[2015-10-08 18:43:07] Reponse Code:  200
+[2015-10-08 18:43:07] Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode2.txt
+[2015-10-08 18:43:07] Find 9 Snippets
+[2015-10-08 18:43:07] OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets2.txt
+[2015-10-08 18:43:07] Finish Storage
+[2015-10-08 18:43:07] Finish page # 2
+[2015-10-08 18:43:17] Finish all pages
