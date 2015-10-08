@@ -1,0 +1,8 @@
+[2015-10-08 17:48:53] Start to transfer data into MySQL
+[2015-10-08 17:48:53] Start to access file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets1.txt
+[2015-10-08 17:48:53] Load 100 words from file Snippets 1
+[2015-10-08 17:48:53] Wait for 5 seconds to access the next file
+[2015-10-08 17:48:58] Start to access file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets2.txt
+[2015-10-08 17:48:58] Load 87 words from file Snippets 2
+[2015-10-08 17:48:58] Wait for 5 seconds to access the next file
+[2015-10-08 17:49:03] Load all files, already disconnect the database

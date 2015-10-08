@@ -15,7 +15,7 @@ csrf = soup.find(id="loginCsrfParam-login")['value']
 
 login_information = {
     'session_key':'email',
-    'session_password':'password',
+    'session_password':'pws',
     'loginCsrfParam': csrf,
 }
 
@@ -26,7 +26,17 @@ content = client.get('https://www.linkedin.com/vsearch/p?rsid=400426048144340194
 print (content.status_code)
 print (content.encoding)
 
-fh = open('testjson.html','w')
+fh = open('defaultED.html','w')
+fh.write(content.text)
+fh.close
+
+content.encoding = 'utf-8'
+fh = open('u8ED.html', 'w')
+fh.write(content.text)
+fh.close
+
+content.encoding = 'unicode'
+fh = open('uniED.html', 'w')
 fh.write(content.text)
 fh.close
 

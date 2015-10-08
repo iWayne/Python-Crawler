@@ -1,10 +1,9 @@
+# !/usr/bin/env python3.5
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 import re
-import os
-import time
 
-class Filter:
+class Tool(object):
 	removeScript = re.compile(r'\\u003.*?\\u003e')
 	removeNextLine = re.compile(r'\\n')
 	removeFmtHeading = re.compile(',"fmt_heading":".*?"')
@@ -33,25 +32,7 @@ class Filter:
 			if item[0] == 'Summary':
 				str = item[1] + 'eeking' + item[2]
 		str = re.sub(self.removePunc," ", str)
-		return str.strip().lower()
-
-
-f = open('test1.html')
-data = f.read()
-f.close()
-pattern = re.compile('snippets":\[\{(.*?)\}\]', re.S)
-items = re.findall(pattern, data)
-print (len(items))
-##print (data)
-fileDir = os.path.dirname(os.path.realpath('__file__'))
-filename = os.path.join(fileDir, 'source/WriteSnippets'+ str(1) + '.txt')
-file = open(filename, 'w')
-filter = Filter()
-for item in items:
-	item = filter.replace(item)
-	if len(item) > 0:
-		file.write(item + '\n' + '\n')
-file.close()
+		return str.strip()
 
 
 
