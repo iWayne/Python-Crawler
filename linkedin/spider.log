@@ -1,18 +1,1244 @@
-[2015-10-08 18:42:53] Start to login Linkedin
-[2015-10-08 18:42:54] Get the session
-[2015-10-08 18:42:54] Crawler is running
-[2015-10-08 18:42:54] Crawling page: 1
-[2015-10-08 18:42:56] Reponse Code:  200
-[2015-10-08 18:42:56] Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode1.txt
-[2015-10-08 18:42:56] Find 10 Snippets
-[2015-10-08 18:42:56] OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets1.txt
-[2015-10-08 18:42:56] Finish Storage
-[2015-10-08 18:42:56] Finish page # 1
-[2015-10-08 18:43:06] Crawling page: 2
-[2015-10-08 18:43:07] Reponse Code:  200
-[2015-10-08 18:43:07] Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode2.txt
-[2015-10-08 18:43:07] Find 9 Snippets
-[2015-10-08 18:43:07] OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets2.txt
-[2015-10-08 18:43:07] Finish Storage
-[2015-10-08 18:43:07] Finish page # 2
-[2015-10-08 18:43:17] Finish all pages
+[2015-10-09 00:48:19]	MySQL:	 Start to transfer data into MySQL
+[2015-10-09 00:48:19]	MySQL:	 Current file: Snippets 1
+[2015-10-09 00:48:19]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:48:21]	Spider:	 Start to login Linkedin
+[2015-10-09 00:48:22]	Spider:	 Get the session
+[2015-10-09 00:48:22]	Spider:	 Crawler is running
+[2015-10-09 00:48:22]	Spider:	 Crawling page: 1
+[2015-10-09 00:48:23]	Spider:	 Reponse Code:  200
+[2015-10-09 00:48:23]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode1.txt
+[2015-10-09 00:48:23]	Spider:	 Find 9 Snippets
+[2015-10-09 00:48:23]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets1.txt
+[2015-10-09 00:48:23]	Spider:	 Finish Storage
+[2015-10-09 00:48:23]	Spider:	 Finish page # 1
+[2015-10-09 00:48:24]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets1.txt
+[2015-10-09 00:48:25]	MySQL:	 Load 111 words from file Snippets 1
+[2015-10-09 00:48:25]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:48:30]	MySQL:	 Current file: Snippets 2
+[2015-10-09 00:48:30]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:48:33]	Spider:	 Crawling page: 2
+[2015-10-09 00:48:35]	Spider:	 Reponse Code:  200
+[2015-10-09 00:48:35]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode2.txt
+[2015-10-09 00:48:35]	Spider:	 Find 10 Snippets
+[2015-10-09 00:48:35]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets2.txt
+[2015-10-09 00:48:35]	Spider:	 Finish Storage
+[2015-10-09 00:48:35]	Spider:	 Finish page # 2
+[2015-10-09 00:48:35]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets2.txt
+[2015-10-09 00:48:35]	MySQL:	 Load 62 words from file Snippets 2
+[2015-10-09 00:48:35]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:48:40]	MySQL:	 Current file: Snippets 3
+[2015-10-09 00:48:40]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:48:45]	Spider:	 Crawling page: 3
+[2015-10-09 00:48:45]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:48:46]	Spider:	 Reponse Code:  200
+[2015-10-09 00:48:46]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode3.txt
+[2015-10-09 00:48:46]	Spider:	 Find 10 Snippets
+[2015-10-09 00:48:46]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets3.txt
+[2015-10-09 00:48:46]	Spider:	 Finish Storage
+[2015-10-09 00:48:46]	Spider:	 Finish page # 3
+[2015-10-09 00:48:50]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets3.txt
+[2015-10-09 00:48:50]	MySQL:	 Load 57 words from file Snippets 3
+[2015-10-09 00:48:50]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:48:55]	MySQL:	 Current file: Snippets 4
+[2015-10-09 00:48:55]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:48:56]	Spider:	 Crawling page: 4
+[2015-10-09 00:48:58]	Spider:	 Reponse Code:  200
+[2015-10-09 00:48:58]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode4.txt
+[2015-10-09 00:48:58]	Spider:	 Find 10 Snippets
+[2015-10-09 00:48:58]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets4.txt
+[2015-10-09 00:48:58]	Spider:	 Finish Storage
+[2015-10-09 00:48:58]	Spider:	 Finish page # 4
+[2015-10-09 00:49:00]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets4.txt
+[2015-10-09 00:49:00]	MySQL:	 Load 81 words from file Snippets 4
+[2015-10-09 00:49:00]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:49:05]	MySQL:	 Current file: Snippets 5
+[2015-10-09 00:49:05]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:49:08]	Spider:	 Crawling page: 5
+[2015-10-09 00:49:09]	Spider:	 Reponse Code:  200
+[2015-10-09 00:49:09]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode5.txt
+[2015-10-09 00:49:09]	Spider:	 Find 10 Snippets
+[2015-10-09 00:49:09]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets5.txt
+[2015-10-09 00:49:09]	Spider:	 Finish Storage
+[2015-10-09 00:49:09]	Spider:	 Finish page # 5
+[2015-10-09 00:49:10]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets5.txt
+[2015-10-09 00:49:10]	MySQL:	 Load 62 words from file Snippets 5
+[2015-10-09 00:49:10]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:49:15]	MySQL:	 Current file: Snippets 6
+[2015-10-09 00:49:15]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:49:19]	Spider:	 Crawling page: 6
+[2015-10-09 00:49:20]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:49:20]	Spider:	 Reponse Code:  200
+[2015-10-09 00:49:20]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode6.txt
+[2015-10-09 00:49:20]	Spider:	 Find 10 Snippets
+[2015-10-09 00:49:20]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets6.txt
+[2015-10-09 00:49:20]	Spider:	 Finish Storage
+[2015-10-09 00:49:20]	Spider:	 Finish page # 6
+[2015-10-09 00:49:25]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets6.txt
+[2015-10-09 00:49:25]	MySQL:	 Load 116 words from file Snippets 6
+[2015-10-09 00:49:25]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:49:30]	MySQL:	 Current file: Snippets 7
+[2015-10-09 00:49:30]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:49:30]	Spider:	 Crawling page: 7
+[2015-10-09 00:49:31]	Spider:	 Reponse Code:  200
+[2015-10-09 00:49:31]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode7.txt
+[2015-10-09 00:49:31]	Spider:	 Find 10 Snippets
+[2015-10-09 00:49:31]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets7.txt
+[2015-10-09 00:49:31]	Spider:	 Finish Storage
+[2015-10-09 00:49:31]	Spider:	 Finish page # 7
+[2015-10-09 00:49:35]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets7.txt
+[2015-10-09 00:49:35]	MySQL:	 Load 82 words from file Snippets 7
+[2015-10-09 00:49:35]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:49:40]	MySQL:	 Current file: Snippets 8
+[2015-10-09 00:49:40]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:49:41]	Spider:	 Crawling page: 8
+[2015-10-09 00:49:43]	Spider:	 Reponse Code:  200
+[2015-10-09 00:49:43]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode8.txt
+[2015-10-09 00:49:43]	Spider:	 Find 9 Snippets
+[2015-10-09 00:49:43]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets8.txt
+[2015-10-09 00:49:43]	Spider:	 Finish Storage
+[2015-10-09 00:49:43]	Spider:	 Finish page # 8
+[2015-10-09 00:49:45]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets8.txt
+[2015-10-09 00:49:45]	MySQL:	 Load 67 words from file Snippets 8
+[2015-10-09 00:49:45]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:49:50]	MySQL:	 Current file: Snippets 9
+[2015-10-09 00:49:50]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:49:53]	Spider:	 Crawling page: 9
+[2015-10-09 00:49:54]	Spider:	 Reponse Code:  200
+[2015-10-09 00:49:54]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode9.txt
+[2015-10-09 00:49:54]	Spider:	 Find 10 Snippets
+[2015-10-09 00:49:54]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets9.txt
+[2015-10-09 00:49:54]	Spider:	 Finish Storage
+[2015-10-09 00:49:54]	Spider:	 Finish page # 9
+[2015-10-09 00:49:55]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets9.txt
+[2015-10-09 00:49:55]	MySQL:	 Load 108 words from file Snippets 9
+[2015-10-09 00:49:55]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:50:00]	MySQL:	 Current file: Snippets 10
+[2015-10-09 00:50:00]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:50:04]	Spider:	 Crawling page: 10
+[2015-10-09 00:50:05]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:50:05]	Spider:	 Reponse Code:  200
+[2015-10-09 00:50:05]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode10.txt
+[2015-10-09 00:50:05]	Spider:	 Find 10 Snippets
+[2015-10-09 00:50:05]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets10.txt
+[2015-10-09 00:50:05]	Spider:	 Finish Storage
+[2015-10-09 00:50:05]	Spider:	 Finish page # 10
+[2015-10-09 00:50:10]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets10.txt
+[2015-10-09 00:50:10]	MySQL:	 Load 142 words from file Snippets 10
+[2015-10-09 00:50:10]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:50:15]	Spider:	 Crawling page: 11
+[2015-10-09 00:50:15]	MySQL:	 Current file: Snippets 11
+[2015-10-09 00:50:15]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:50:16]	Spider:	 Reponse Code:  200
+[2015-10-09 00:50:16]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode11.txt
+[2015-10-09 00:50:16]	Spider:	 Find 10 Snippets
+[2015-10-09 00:50:16]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets11.txt
+[2015-10-09 00:50:16]	Spider:	 Finish Storage
+[2015-10-09 00:50:16]	Spider:	 Finish page # 11
+[2015-10-09 00:50:20]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets11.txt
+[2015-10-09 00:50:20]	MySQL:	 Load 65 words from file Snippets 11
+[2015-10-09 00:50:20]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:50:25]	MySQL:	 Current file: Snippets 12
+[2015-10-09 00:50:25]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:50:26]	Spider:	 Crawling page: 12
+[2015-10-09 00:50:27]	Spider:	 Reponse Code:  200
+[2015-10-09 00:50:27]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode12.txt
+[2015-10-09 00:50:27]	Spider:	 Find 10 Snippets
+[2015-10-09 00:50:27]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets12.txt
+[2015-10-09 00:50:27]	Spider:	 Finish Storage
+[2015-10-09 00:50:27]	Spider:	 Finish page # 12
+[2015-10-09 00:50:30]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets12.txt
+[2015-10-09 00:50:30]	MySQL:	 Load 77 words from file Snippets 12
+[2015-10-09 00:50:30]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:50:35]	MySQL:	 Current file: Snippets 13
+[2015-10-09 00:50:35]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:50:37]	Spider:	 Crawling page: 13
+[2015-10-09 00:50:38]	Spider:	 Reponse Code:  200
+[2015-10-09 00:50:38]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode13.txt
+[2015-10-09 00:50:38]	Spider:	 Find 10 Snippets
+[2015-10-09 00:50:38]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets13.txt
+[2015-10-09 00:50:38]	Spider:	 Finish Storage
+[2015-10-09 00:50:38]	Spider:	 Finish page # 13
+[2015-10-09 00:50:40]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets13.txt
+[2015-10-09 00:50:40]	MySQL:	 Load 75 words from file Snippets 13
+[2015-10-09 00:50:40]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:50:45]	MySQL:	 Current file: Snippets 14
+[2015-10-09 00:50:45]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:50:48]	Spider:	 Crawling page: 14
+[2015-10-09 00:50:49]	Spider:	 Reponse Code:  200
+[2015-10-09 00:50:49]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode14.txt
+[2015-10-09 00:50:49]	Spider:	 Find 10 Snippets
+[2015-10-09 00:50:49]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets14.txt
+[2015-10-09 00:50:49]	Spider:	 Finish Storage
+[2015-10-09 00:50:49]	Spider:	 Finish page # 14
+[2015-10-09 00:50:50]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets14.txt
+[2015-10-09 00:50:50]	MySQL:	 Load 101 words from file Snippets 14
+[2015-10-09 00:50:50]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:50:55]	MySQL:	 Current file: Snippets 15
+[2015-10-09 00:50:55]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:50:59]	Spider:	 Crawling page: 15
+[2015-10-09 00:51:00]	Spider:	 Reponse Code:  200
+[2015-10-09 00:51:00]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode15.txt
+[2015-10-09 00:51:00]	Spider:	 Find 10 Snippets
+[2015-10-09 00:51:00]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets15.txt
+[2015-10-09 00:51:00]	Spider:	 Finish Storage
+[2015-10-09 00:51:00]	Spider:	 Finish page # 15
+[2015-10-09 00:51:00]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets15.txt
+[2015-10-09 00:51:00]	MySQL:	 Load 77 words from file Snippets 15
+[2015-10-09 00:51:00]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:51:05]	MySQL:	 Current file: Snippets 16
+[2015-10-09 00:51:05]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:51:10]	Spider:	 Crawling page: 16
+[2015-10-09 00:51:10]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:51:11]	Spider:	 Reponse Code:  200
+[2015-10-09 00:51:11]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode16.txt
+[2015-10-09 00:51:11]	Spider:	 Find 9 Snippets
+[2015-10-09 00:51:11]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets16.txt
+[2015-10-09 00:51:11]	Spider:	 Finish Storage
+[2015-10-09 00:51:11]	Spider:	 Finish page # 16
+[2015-10-09 00:51:15]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets16.txt
+[2015-10-09 00:51:15]	MySQL:	 Load 87 words from file Snippets 16
+[2015-10-09 00:51:15]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:51:20]	MySQL:	 Current file: Snippets 17
+[2015-10-09 00:51:20]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:51:21]	Spider:	 Crawling page: 17
+[2015-10-09 00:51:22]	Spider:	 Reponse Code:  200
+[2015-10-09 00:51:22]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode17.txt
+[2015-10-09 00:51:22]	Spider:	 Find 10 Snippets
+[2015-10-09 00:51:22]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets17.txt
+[2015-10-09 00:51:22]	Spider:	 Finish Storage
+[2015-10-09 00:51:22]	Spider:	 Finish page # 17
+[2015-10-09 00:51:25]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets17.txt
+[2015-10-09 00:51:26]	MySQL:	 Load 85 words from file Snippets 17
+[2015-10-09 00:51:26]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:51:31]	MySQL:	 Current file: Snippets 18
+[2015-10-09 00:51:31]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:51:32]	Spider:	 Crawling page: 18
+[2015-10-09 00:51:33]	Spider:	 Reponse Code:  200
+[2015-10-09 00:51:33]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode18.txt
+[2015-10-09 00:51:33]	Spider:	 Find 10 Snippets
+[2015-10-09 00:51:33]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets18.txt
+[2015-10-09 00:51:33]	Spider:	 Finish Storage
+[2015-10-09 00:51:33]	Spider:	 Finish page # 18
+[2015-10-09 00:51:36]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets18.txt
+[2015-10-09 00:51:36]	MySQL:	 Load 67 words from file Snippets 18
+[2015-10-09 00:51:36]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:51:41]	MySQL:	 Current file: Snippets 19
+[2015-10-09 00:51:41]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:51:43]	Spider:	 Crawling page: 19
+[2015-10-09 00:51:44]	Spider:	 Reponse Code:  200
+[2015-10-09 00:51:44]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode19.txt
+[2015-10-09 00:51:44]	Spider:	 Find 9 Snippets
+[2015-10-09 00:51:44]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets19.txt
+[2015-10-09 00:51:44]	Spider:	 Finish Storage
+[2015-10-09 00:51:44]	Spider:	 Finish page # 19
+[2015-10-09 00:51:46]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets19.txt
+[2015-10-09 00:51:46]	MySQL:	 Load 60 words from file Snippets 19
+[2015-10-09 00:51:46]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:51:51]	MySQL:	 Current file: Snippets 20
+[2015-10-09 00:51:51]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:51:54]	Spider:	 Crawling page: 20
+[2015-10-09 00:51:55]	Spider:	 Reponse Code:  200
+[2015-10-09 00:51:55]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode20.txt
+[2015-10-09 00:51:55]	Spider:	 Find 10 Snippets
+[2015-10-09 00:51:55]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets20.txt
+[2015-10-09 00:51:55]	Spider:	 Finish Storage
+[2015-10-09 00:51:55]	Spider:	 Finish page # 20
+[2015-10-09 00:51:56]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets20.txt
+[2015-10-09 00:51:56]	MySQL:	 Load 60 words from file Snippets 20
+[2015-10-09 00:51:56]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:52:01]	MySQL:	 Current file: Snippets 21
+[2015-10-09 00:52:01]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:52:05]	Spider:	 Crawling page: 21
+[2015-10-09 00:52:06]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:52:06]	Spider:	 Reponse Code:  200
+[2015-10-09 00:52:06]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode21.txt
+[2015-10-09 00:52:06]	Spider:	 Find 10 Snippets
+[2015-10-09 00:52:06]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets21.txt
+[2015-10-09 00:52:06]	Spider:	 Finish Storage
+[2015-10-09 00:52:06]	Spider:	 Finish page # 21
+[2015-10-09 00:52:11]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets21.txt
+[2015-10-09 00:52:11]	MySQL:	 Load 63 words from file Snippets 21
+[2015-10-09 00:52:11]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:52:16]	MySQL:	 Current file: Snippets 22
+[2015-10-09 00:52:16]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:52:16]	Spider:	 Crawling page: 22
+[2015-10-09 00:52:18]	Spider:	 Reponse Code:  200
+[2015-10-09 00:52:18]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode22.txt
+[2015-10-09 00:52:18]	Spider:	 Find 10 Snippets
+[2015-10-09 00:52:18]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets22.txt
+[2015-10-09 00:52:18]	Spider:	 Finish Storage
+[2015-10-09 00:52:18]	Spider:	 Finish page # 22
+[2015-10-09 00:52:21]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets22.txt
+[2015-10-09 00:52:21]	MySQL:	 Load 97 words from file Snippets 22
+[2015-10-09 00:52:21]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:52:26]	MySQL:	 Current file: Snippets 23
+[2015-10-09 00:52:26]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:52:28]	Spider:	 Crawling page: 23
+[2015-10-09 00:52:29]	Spider:	 Reponse Code:  200
+[2015-10-09 00:52:29]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode23.txt
+[2015-10-09 00:52:29]	Spider:	 Find 10 Snippets
+[2015-10-09 00:52:29]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets23.txt
+[2015-10-09 00:52:29]	Spider:	 Finish Storage
+[2015-10-09 00:52:29]	Spider:	 Finish page # 23
+[2015-10-09 00:52:31]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets23.txt
+[2015-10-09 00:52:31]	MySQL:	 Load 63 words from file Snippets 23
+[2015-10-09 00:52:31]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:52:36]	MySQL:	 Current file: Snippets 24
+[2015-10-09 00:52:36]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:52:39]	Spider:	 Crawling page: 24
+[2015-10-09 00:52:40]	Spider:	 Reponse Code:  200
+[2015-10-09 00:52:40]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode24.txt
+[2015-10-09 00:52:40]	Spider:	 Find 10 Snippets
+[2015-10-09 00:52:40]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets24.txt
+[2015-10-09 00:52:40]	Spider:	 Finish Storage
+[2015-10-09 00:52:40]	Spider:	 Finish page # 24
+[2015-10-09 00:52:41]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets24.txt
+[2015-10-09 00:52:41]	MySQL:	 Load 66 words from file Snippets 24
+[2015-10-09 00:52:41]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:52:46]	MySQL:	 Current file: Snippets 25
+[2015-10-09 00:52:46]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:52:50]	Spider:	 Crawling page: 25
+[2015-10-09 00:52:51]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:52:51]	Spider:	 Reponse Code:  200
+[2015-10-09 00:52:51]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode25.txt
+[2015-10-09 00:52:51]	Spider:	 Find 9 Snippets
+[2015-10-09 00:52:51]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets25.txt
+[2015-10-09 00:52:51]	Spider:	 Finish Storage
+[2015-10-09 00:52:51]	Spider:	 Finish page # 25
+[2015-10-09 00:52:56]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets25.txt
+[2015-10-09 00:52:56]	MySQL:	 Load 57 words from file Snippets 25
+[2015-10-09 00:52:56]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:53:01]	Spider:	 Crawling page: 26
+[2015-10-09 00:53:01]	MySQL:	 Current file: Snippets 26
+[2015-10-09 00:53:01]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:53:02]	Spider:	 Reponse Code:  200
+[2015-10-09 00:53:02]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode26.txt
+[2015-10-09 00:53:02]	Spider:	 Find 10 Snippets
+[2015-10-09 00:53:02]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets26.txt
+[2015-10-09 00:53:02]	Spider:	 Finish Storage
+[2015-10-09 00:53:02]	Spider:	 Finish page # 26
+[2015-10-09 00:53:06]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets26.txt
+[2015-10-09 00:53:06]	MySQL:	 Load 87 words from file Snippets 26
+[2015-10-09 00:53:06]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:53:11]	MySQL:	 Current file: Snippets 27
+[2015-10-09 00:53:11]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:53:12]	Spider:	 Crawling page: 27
+[2015-10-09 00:53:13]	Spider:	 Reponse Code:  200
+[2015-10-09 00:53:13]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode27.txt
+[2015-10-09 00:53:13]	Spider:	 Find 10 Snippets
+[2015-10-09 00:53:13]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets27.txt
+[2015-10-09 00:53:13]	Spider:	 Finish Storage
+[2015-10-09 00:53:13]	Spider:	 Finish page # 27
+[2015-10-09 00:53:16]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets27.txt
+[2015-10-09 00:53:16]	MySQL:	 Load 79 words from file Snippets 27
+[2015-10-09 00:53:16]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:53:21]	MySQL:	 Current file: Snippets 28
+[2015-10-09 00:53:21]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:53:23]	Spider:	 Crawling page: 28
+[2015-10-09 00:53:25]	Spider:	 Reponse Code:  200
+[2015-10-09 00:53:25]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode28.txt
+[2015-10-09 00:53:25]	Spider:	 Find 10 Snippets
+[2015-10-09 00:53:25]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets28.txt
+[2015-10-09 00:53:25]	Spider:	 Finish Storage
+[2015-10-09 00:53:25]	Spider:	 Finish page # 28
+[2015-10-09 00:53:26]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets28.txt
+[2015-10-09 00:53:26]	MySQL:	 Load 69 words from file Snippets 28
+[2015-10-09 00:53:26]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:53:31]	MySQL:	 Current file: Snippets 29
+[2015-10-09 00:53:31]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:53:35]	Spider:	 Crawling page: 29
+[2015-10-09 00:53:36]	Spider:	 Reponse Code:  200
+[2015-10-09 00:53:36]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode29.txt
+[2015-10-09 00:53:36]	Spider:	 Find 10 Snippets
+[2015-10-09 00:53:36]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets29.txt
+[2015-10-09 00:53:36]	Spider:	 Finish Storage
+[2015-10-09 00:53:36]	Spider:	 Finish page # 29
+[2015-10-09 00:53:36]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets29.txt
+[2015-10-09 00:53:36]	MySQL:	 Load 57 words from file Snippets 29
+[2015-10-09 00:53:36]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:53:41]	MySQL:	 Current file: Snippets 30
+[2015-10-09 00:53:41]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:53:46]	Spider:	 Crawling page: 30
+[2015-10-09 00:53:46]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:53:47]	Spider:	 Reponse Code:  200
+[2015-10-09 00:53:47]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode30.txt
+[2015-10-09 00:53:47]	Spider:	 Find 10 Snippets
+[2015-10-09 00:53:47]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets30.txt
+[2015-10-09 00:53:47]	Spider:	 Finish Storage
+[2015-10-09 00:53:47]	Spider:	 Finish page # 30
+[2015-10-09 00:53:51]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets30.txt
+[2015-10-09 00:53:51]	MySQL:	 Load 73 words from file Snippets 30
+[2015-10-09 00:53:51]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:53:56]	MySQL:	 Current file: Snippets 31
+[2015-10-09 00:53:56]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:53:57]	Spider:	 Crawling page: 31
+[2015-10-09 00:53:59]	Spider:	 Reponse Code:  200
+[2015-10-09 00:53:59]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode31.txt
+[2015-10-09 00:53:59]	Spider:	 Find 10 Snippets
+[2015-10-09 00:53:59]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets31.txt
+[2015-10-09 00:53:59]	Spider:	 Finish Storage
+[2015-10-09 00:53:59]	Spider:	 Finish page # 31
+[2015-10-09 00:54:01]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets31.txt
+[2015-10-09 00:54:01]	MySQL:	 Load 67 words from file Snippets 31
+[2015-10-09 00:54:01]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:54:06]	MySQL:	 Current file: Snippets 32
+[2015-10-09 00:54:06]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:54:09]	Spider:	 Crawling page: 32
+[2015-10-09 00:54:11]	Spider:	 Reponse Code:  200
+[2015-10-09 00:54:11]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode32.txt
+[2015-10-09 00:54:11]	Spider:	 Find 10 Snippets
+[2015-10-09 00:54:11]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets32.txt
+[2015-10-09 00:54:11]	Spider:	 Finish Storage
+[2015-10-09 00:54:11]	Spider:	 Finish page # 32
+[2015-10-09 00:54:11]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets32.txt
+[2015-10-09 00:54:11]	MySQL:	 Load 66 words from file Snippets 32
+[2015-10-09 00:54:11]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:54:16]	MySQL:	 Current file: Snippets 33
+[2015-10-09 00:54:16]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:54:21]	Spider:	 Crawling page: 33
+[2015-10-09 00:54:21]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:54:22]	Spider:	 Reponse Code:  200
+[2015-10-09 00:54:22]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode33.txt
+[2015-10-09 00:54:22]	Spider:	 Find 9 Snippets
+[2015-10-09 00:54:22]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets33.txt
+[2015-10-09 00:54:22]	Spider:	 Finish Storage
+[2015-10-09 00:54:22]	Spider:	 Finish page # 33
+[2015-10-09 00:54:26]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets33.txt
+[2015-10-09 00:54:26]	MySQL:	 Load 45 words from file Snippets 33
+[2015-10-09 00:54:26]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:54:31]	MySQL:	 Current file: Snippets 34
+[2015-10-09 00:54:31]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:54:32]	Spider:	 Crawling page: 34
+[2015-10-09 00:54:34]	Spider:	 Reponse Code:  200
+[2015-10-09 00:54:34]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode34.txt
+[2015-10-09 00:54:34]	Spider:	 Find 10 Snippets
+[2015-10-09 00:54:34]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets34.txt
+[2015-10-09 00:54:34]	Spider:	 Finish Storage
+[2015-10-09 00:54:34]	Spider:	 Finish page # 34
+[2015-10-09 00:54:36]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets34.txt
+[2015-10-09 00:54:36]	MySQL:	 Load 56 words from file Snippets 34
+[2015-10-09 00:54:36]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:54:41]	MySQL:	 Current file: Snippets 35
+[2015-10-09 00:54:41]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:54:44]	Spider:	 Crawling page: 35
+[2015-10-09 00:54:45]	Spider:	 Reponse Code:  200
+[2015-10-09 00:54:45]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode35.txt
+[2015-10-09 00:54:45]	Spider:	 Find 9 Snippets
+[2015-10-09 00:54:45]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets35.txt
+[2015-10-09 00:54:45]	Spider:	 Finish Storage
+[2015-10-09 00:54:45]	Spider:	 Finish page # 35
+[2015-10-09 00:54:46]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets35.txt
+[2015-10-09 00:54:47]	MySQL:	 Load 44 words from file Snippets 35
+[2015-10-09 00:54:47]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:54:52]	MySQL:	 Current file: Snippets 36
+[2015-10-09 00:54:52]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:54:55]	Spider:	 Crawling page: 36
+[2015-10-09 00:54:56]	Spider:	 Reponse Code:  200
+[2015-10-09 00:54:56]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode36.txt
+[2015-10-09 00:54:56]	Spider:	 Find 10 Snippets
+[2015-10-09 00:54:56]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets36.txt
+[2015-10-09 00:54:56]	Spider:	 Finish Storage
+[2015-10-09 00:54:56]	Spider:	 Finish page # 36
+[2015-10-09 00:54:57]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets36.txt
+[2015-10-09 00:54:57]	MySQL:	 Load 61 words from file Snippets 36
+[2015-10-09 00:54:57]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:55:02]	MySQL:	 Current file: Snippets 37
+[2015-10-09 00:55:02]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:55:06]	Spider:	 Crawling page: 37
+[2015-10-09 00:55:07]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:55:08]	Spider:	 Reponse Code:  200
+[2015-10-09 00:55:08]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode37.txt
+[2015-10-09 00:55:08]	Spider:	 Find 10 Snippets
+[2015-10-09 00:55:08]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets37.txt
+[2015-10-09 00:55:08]	Spider:	 Finish Storage
+[2015-10-09 00:55:08]	Spider:	 Finish page # 37
+[2015-10-09 00:55:12]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets37.txt
+[2015-10-09 00:55:12]	MySQL:	 Load 67 words from file Snippets 37
+[2015-10-09 00:55:12]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:55:17]	MySQL:	 Current file: Snippets 38
+[2015-10-09 00:55:17]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:55:18]	Spider:	 Crawling page: 38
+[2015-10-09 00:55:19]	Spider:	 Reponse Code:  200
+[2015-10-09 00:55:19]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode38.txt
+[2015-10-09 00:55:19]	Spider:	 Find 10 Snippets
+[2015-10-09 00:55:19]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets38.txt
+[2015-10-09 00:55:19]	Spider:	 Finish Storage
+[2015-10-09 00:55:19]	Spider:	 Finish page # 38
+[2015-10-09 00:55:22]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets38.txt
+[2015-10-09 00:55:22]	MySQL:	 Load 67 words from file Snippets 38
+[2015-10-09 00:55:22]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:55:27]	MySQL:	 Current file: Snippets 39
+[2015-10-09 00:55:27]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:55:29]	Spider:	 Crawling page: 39
+[2015-10-09 00:55:30]	Spider:	 Reponse Code:  200
+[2015-10-09 00:55:30]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode39.txt
+[2015-10-09 00:55:30]	Spider:	 Find 10 Snippets
+[2015-10-09 00:55:30]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets39.txt
+[2015-10-09 00:55:30]	Spider:	 Finish Storage
+[2015-10-09 00:55:30]	Spider:	 Finish page # 39
+[2015-10-09 00:55:32]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets39.txt
+[2015-10-09 00:55:32]	MySQL:	 Load 90 words from file Snippets 39
+[2015-10-09 00:55:32]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:55:37]	MySQL:	 Current file: Snippets 40
+[2015-10-09 00:55:37]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:55:40]	Spider:	 Crawling page: 40
+[2015-10-09 00:55:41]	Spider:	 Reponse Code:  200
+[2015-10-09 00:55:41]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode40.txt
+[2015-10-09 00:55:41]	Spider:	 Find 10 Snippets
+[2015-10-09 00:55:41]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets40.txt
+[2015-10-09 00:55:41]	Spider:	 Finish Storage
+[2015-10-09 00:55:41]	Spider:	 Finish page # 40
+[2015-10-09 00:55:42]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets40.txt
+[2015-10-09 00:55:42]	MySQL:	 Load 66 words from file Snippets 40
+[2015-10-09 00:55:42]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:55:47]	MySQL:	 Current file: Snippets 41
+[2015-10-09 00:55:47]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:55:51]	Spider:	 Crawling page: 41
+[2015-10-09 00:55:52]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:55:52]	Spider:	 Reponse Code:  200
+[2015-10-09 00:55:52]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode41.txt
+[2015-10-09 00:55:52]	Spider:	 Find 9 Snippets
+[2015-10-09 00:55:52]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets41.txt
+[2015-10-09 00:55:52]	Spider:	 Finish Storage
+[2015-10-09 00:55:52]	Spider:	 Finish page # 41
+[2015-10-09 00:55:57]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets41.txt
+[2015-10-09 00:55:57]	MySQL:	 Load 56 words from file Snippets 41
+[2015-10-09 00:55:57]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:56:02]	MySQL:	 Current file: Snippets 42
+[2015-10-09 00:56:02]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:56:02]	Spider:	 Crawling page: 42
+[2015-10-09 00:56:04]	Spider:	 Reponse Code:  200
+[2015-10-09 00:56:04]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode42.txt
+[2015-10-09 00:56:04]	Spider:	 Find 10 Snippets
+[2015-10-09 00:56:04]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets42.txt
+[2015-10-09 00:56:04]	Spider:	 Finish Storage
+[2015-10-09 00:56:04]	Spider:	 Finish page # 42
+[2015-10-09 00:56:07]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets42.txt
+[2015-10-09 00:56:07]	MySQL:	 Load 60 words from file Snippets 42
+[2015-10-09 00:56:07]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:56:12]	MySQL:	 Current file: Snippets 43
+[2015-10-09 00:56:12]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:56:14]	Spider:	 Crawling page: 43
+[2015-10-09 00:56:15]	Spider:	 Reponse Code:  200
+[2015-10-09 00:56:15]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode43.txt
+[2015-10-09 00:56:15]	Spider:	 Find 10 Snippets
+[2015-10-09 00:56:15]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets43.txt
+[2015-10-09 00:56:15]	Spider:	 Finish Storage
+[2015-10-09 00:56:15]	Spider:	 Finish page # 43
+[2015-10-09 00:56:17]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets43.txt
+[2015-10-09 00:56:17]	MySQL:	 Load 56 words from file Snippets 43
+[2015-10-09 00:56:17]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:56:22]	MySQL:	 Current file: Snippets 44
+[2015-10-09 00:56:22]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:56:25]	Spider:	 Crawling page: 44
+[2015-10-09 00:56:26]	Spider:	 Reponse Code:  200
+[2015-10-09 00:56:26]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode44.txt
+[2015-10-09 00:56:26]	Spider:	 Find 10 Snippets
+[2015-10-09 00:56:26]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets44.txt
+[2015-10-09 00:56:26]	Spider:	 Finish Storage
+[2015-10-09 00:56:26]	Spider:	 Finish page # 44
+[2015-10-09 00:56:27]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets44.txt
+[2015-10-09 00:56:27]	MySQL:	 Load 58 words from file Snippets 44
+[2015-10-09 00:56:27]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:56:32]	MySQL:	 Current file: Snippets 45
+[2015-10-09 00:56:32]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:56:36]	Spider:	 Crawling page: 45
+[2015-10-09 00:56:37]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:56:37]	Spider:	 Reponse Code:  200
+[2015-10-09 00:56:37]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode45.txt
+[2015-10-09 00:56:37]	Spider:	 Find 10 Snippets
+[2015-10-09 00:56:37]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets45.txt
+[2015-10-09 00:56:37]	Spider:	 Finish Storage
+[2015-10-09 00:56:37]	Spider:	 Finish page # 45
+[2015-10-09 00:56:42]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets45.txt
+[2015-10-09 00:56:42]	MySQL:	 Load 75 words from file Snippets 45
+[2015-10-09 00:56:42]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:56:47]	MySQL:	 Current file: Snippets 46
+[2015-10-09 00:56:47]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:56:47]	Spider:	 Crawling page: 46
+[2015-10-09 00:56:49]	Spider:	 Reponse Code:  200
+[2015-10-09 00:56:49]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode46.txt
+[2015-10-09 00:56:49]	Spider:	 Find 10 Snippets
+[2015-10-09 00:56:49]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets46.txt
+[2015-10-09 00:56:49]	Spider:	 Finish Storage
+[2015-10-09 00:56:49]	Spider:	 Finish page # 46
+[2015-10-09 00:56:52]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets46.txt
+[2015-10-09 00:56:52]	MySQL:	 Load 68 words from file Snippets 46
+[2015-10-09 00:56:52]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:56:57]	MySQL:	 Current file: Snippets 47
+[2015-10-09 00:56:57]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:56:59]	Spider:	 Crawling page: 47
+[2015-10-09 00:57:00]	Spider:	 Reponse Code:  200
+[2015-10-09 00:57:00]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode47.txt
+[2015-10-09 00:57:00]	Spider:	 Find 10 Snippets
+[2015-10-09 00:57:00]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets47.txt
+[2015-10-09 00:57:00]	Spider:	 Finish Storage
+[2015-10-09 00:57:00]	Spider:	 Finish page # 47
+[2015-10-09 00:57:02]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets47.txt
+[2015-10-09 00:57:02]	MySQL:	 Load 86 words from file Snippets 47
+[2015-10-09 00:57:02]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:57:07]	MySQL:	 Current file: Snippets 48
+[2015-10-09 00:57:07]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:57:10]	Spider:	 Crawling page: 48
+[2015-10-09 00:57:11]	Spider:	 Reponse Code:  200
+[2015-10-09 00:57:11]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode48.txt
+[2015-10-09 00:57:11]	Spider:	 Find 8 Snippets
+[2015-10-09 00:57:11]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets48.txt
+[2015-10-09 00:57:11]	Spider:	 Finish Storage
+[2015-10-09 00:57:11]	Spider:	 Finish page # 48
+[2015-10-09 00:57:12]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets48.txt
+[2015-10-09 00:57:12]	MySQL:	 Load 47 words from file Snippets 48
+[2015-10-09 00:57:12]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:57:17]	MySQL:	 Current file: Snippets 49
+[2015-10-09 00:57:17]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:57:21]	Spider:	 Crawling page: 49
+[2015-10-09 00:57:22]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:57:22]	Spider:	 Reponse Code:  200
+[2015-10-09 00:57:22]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode49.txt
+[2015-10-09 00:57:22]	Spider:	 Find 10 Snippets
+[2015-10-09 00:57:22]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets49.txt
+[2015-10-09 00:57:22]	Spider:	 Finish Storage
+[2015-10-09 00:57:22]	Spider:	 Finish page # 49
+[2015-10-09 00:57:27]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets49.txt
+[2015-10-09 00:57:27]	MySQL:	 Load 58 words from file Snippets 49
+[2015-10-09 00:57:27]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:57:32]	MySQL:	 Current file: Snippets 50
+[2015-10-09 00:57:32]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:57:32]	Spider:	 Crawling page: 50
+[2015-10-09 00:57:34]	Spider:	 Reponse Code:  200
+[2015-10-09 00:57:34]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode50.txt
+[2015-10-09 00:57:34]	Spider:	 Find 9 Snippets
+[2015-10-09 00:57:34]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets50.txt
+[2015-10-09 00:57:34]	Spider:	 Finish Storage
+[2015-10-09 00:57:34]	Spider:	 Finish page # 50
+[2015-10-09 00:57:37]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets50.txt
+[2015-10-09 00:57:37]	MySQL:	 Load 50 words from file Snippets 50
+[2015-10-09 00:57:37]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:57:42]	MySQL:	 Current file: Snippets 51
+[2015-10-09 00:57:42]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:57:44]	Spider:	 Crawling page: 51
+[2015-10-09 00:57:45]	Spider:	 Reponse Code:  200
+[2015-10-09 00:57:45]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode51.txt
+[2015-10-09 00:57:45]	Spider:	 Find 9 Snippets
+[2015-10-09 00:57:45]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets51.txt
+[2015-10-09 00:57:45]	Spider:	 Finish Storage
+[2015-10-09 00:57:45]	Spider:	 Finish page # 51
+[2015-10-09 00:57:47]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets51.txt
+[2015-10-09 00:57:47]	MySQL:	 Load 69 words from file Snippets 51
+[2015-10-09 00:57:47]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:57:52]	MySQL:	 Current file: Snippets 52
+[2015-10-09 00:57:52]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:57:55]	Spider:	 Crawling page: 52
+[2015-10-09 00:57:57]	Spider:	 Reponse Code:  200
+[2015-10-09 00:57:57]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode52.txt
+[2015-10-09 00:57:57]	Spider:	 Find 10 Snippets
+[2015-10-09 00:57:57]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets52.txt
+[2015-10-09 00:57:57]	Spider:	 Finish Storage
+[2015-10-09 00:57:57]	Spider:	 Finish page # 52
+[2015-10-09 00:57:57]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets52.txt
+[2015-10-09 00:57:57]	MySQL:	 Load 66 words from file Snippets 52
+[2015-10-09 00:57:57]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:58:02]	MySQL:	 Current file: Snippets 53
+[2015-10-09 00:58:02]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:58:07]	Spider:	 Crawling page: 53
+[2015-10-09 00:58:07]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:58:08]	Spider:	 Reponse Code:  200
+[2015-10-09 00:58:08]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode53.txt
+[2015-10-09 00:58:08]	Spider:	 Find 10 Snippets
+[2015-10-09 00:58:08]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets53.txt
+[2015-10-09 00:58:08]	Spider:	 Finish Storage
+[2015-10-09 00:58:08]	Spider:	 Finish page # 53
+[2015-10-09 00:58:12]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets53.txt
+[2015-10-09 00:58:12]	MySQL:	 Load 59 words from file Snippets 53
+[2015-10-09 00:58:12]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:58:17]	MySQL:	 Current file: Snippets 54
+[2015-10-09 00:58:17]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:58:18]	Spider:	 Crawling page: 54
+[2015-10-09 00:58:19]	Spider:	 Reponse Code:  200
+[2015-10-09 00:58:19]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode54.txt
+[2015-10-09 00:58:19]	Spider:	 Find 9 Snippets
+[2015-10-09 00:58:19]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets54.txt
+[2015-10-09 00:58:19]	Spider:	 Finish Storage
+[2015-10-09 00:58:19]	Spider:	 Finish page # 54
+[2015-10-09 00:58:22]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets54.txt
+[2015-10-09 00:58:23]	MySQL:	 Load 52 words from file Snippets 54
+[2015-10-09 00:58:23]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:58:28]	MySQL:	 Current file: Snippets 55
+[2015-10-09 00:58:28]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:58:29]	Spider:	 Crawling page: 55
+[2015-10-09 00:58:30]	Spider:	 Reponse Code:  200
+[2015-10-09 00:58:30]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode55.txt
+[2015-10-09 00:58:30]	Spider:	 Find 9 Snippets
+[2015-10-09 00:58:30]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets55.txt
+[2015-10-09 00:58:30]	Spider:	 Finish Storage
+[2015-10-09 00:58:30]	Spider:	 Finish page # 55
+[2015-10-09 00:58:33]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets55.txt
+[2015-10-09 00:58:33]	MySQL:	 Load 52 words from file Snippets 55
+[2015-10-09 00:58:33]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:58:38]	MySQL:	 Current file: Snippets 56
+[2015-10-09 00:58:38]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:58:40]	Spider:	 Crawling page: 56
+[2015-10-09 00:58:42]	Spider:	 Reponse Code:  200
+[2015-10-09 00:58:42]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode56.txt
+[2015-10-09 00:58:42]	Spider:	 Find 10 Snippets
+[2015-10-09 00:58:42]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets56.txt
+[2015-10-09 00:58:42]	Spider:	 Finish Storage
+[2015-10-09 00:58:42]	Spider:	 Finish page # 56
+[2015-10-09 00:58:43]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets56.txt
+[2015-10-09 00:58:43]	MySQL:	 Load 58 words from file Snippets 56
+[2015-10-09 00:58:43]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:58:48]	MySQL:	 Current file: Snippets 57
+[2015-10-09 00:58:48]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:58:52]	Spider:	 Crawling page: 57
+[2015-10-09 00:58:53]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:58:53]	Spider:	 Reponse Code:  200
+[2015-10-09 00:58:53]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode57.txt
+[2015-10-09 00:58:53]	Spider:	 Find 10 Snippets
+[2015-10-09 00:58:53]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets57.txt
+[2015-10-09 00:58:53]	Spider:	 Finish Storage
+[2015-10-09 00:58:53]	Spider:	 Finish page # 57
+[2015-10-09 00:58:58]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets57.txt
+[2015-10-09 00:58:58]	MySQL:	 Load 55 words from file Snippets 57
+[2015-10-09 00:58:58]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:59:03]	MySQL:	 Current file: Snippets 58
+[2015-10-09 00:59:03]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:59:03]	Spider:	 Crawling page: 58
+[2015-10-09 00:59:04]	Spider:	 Reponse Code:  200
+[2015-10-09 00:59:04]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode58.txt
+[2015-10-09 00:59:04]	Spider:	 Find 10 Snippets
+[2015-10-09 00:59:04]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets58.txt
+[2015-10-09 00:59:04]	Spider:	 Finish Storage
+[2015-10-09 00:59:04]	Spider:	 Finish page # 58
+[2015-10-09 00:59:08]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets58.txt
+[2015-10-09 00:59:08]	MySQL:	 Load 73 words from file Snippets 58
+[2015-10-09 00:59:08]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:59:13]	MySQL:	 Current file: Snippets 59
+[2015-10-09 00:59:13]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:59:14]	Spider:	 Crawling page: 59
+[2015-10-09 00:59:15]	Spider:	 Reponse Code:  200
+[2015-10-09 00:59:15]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode59.txt
+[2015-10-09 00:59:15]	Spider:	 Find 10 Snippets
+[2015-10-09 00:59:15]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets59.txt
+[2015-10-09 00:59:15]	Spider:	 Finish Storage
+[2015-10-09 00:59:15]	Spider:	 Finish page # 59
+[2015-10-09 00:59:18]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets59.txt
+[2015-10-09 00:59:18]	MySQL:	 Load 70 words from file Snippets 59
+[2015-10-09 00:59:18]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:59:23]	MySQL:	 Current file: Snippets 60
+[2015-10-09 00:59:23]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:59:25]	Spider:	 Crawling page: 60
+[2015-10-09 00:59:27]	Spider:	 Reponse Code:  200
+[2015-10-09 00:59:27]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode60.txt
+[2015-10-09 00:59:27]	Spider:	 Find 10 Snippets
+[2015-10-09 00:59:27]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets60.txt
+[2015-10-09 00:59:27]	Spider:	 Finish Storage
+[2015-10-09 00:59:27]	Spider:	 Finish page # 60
+[2015-10-09 00:59:28]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets60.txt
+[2015-10-09 00:59:28]	MySQL:	 Load 59 words from file Snippets 60
+[2015-10-09 00:59:28]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:59:33]	MySQL:	 Current file: Snippets 61
+[2015-10-09 00:59:33]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:59:37]	Spider:	 Crawling page: 61
+[2015-10-09 00:59:38]	Spider:	 Reponse Code:  200
+[2015-10-09 00:59:38]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode61.txt
+[2015-10-09 00:59:38]	Spider:	 Find 10 Snippets
+[2015-10-09 00:59:38]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets61.txt
+[2015-10-09 00:59:38]	Spider:	 Finish Storage
+[2015-10-09 00:59:38]	Spider:	 Finish page # 61
+[2015-10-09 00:59:38]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets61.txt
+[2015-10-09 00:59:38]	MySQL:	 Load 63 words from file Snippets 61
+[2015-10-09 00:59:38]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:59:43]	MySQL:	 Current file: Snippets 62
+[2015-10-09 00:59:43]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:59:48]	Spider:	 Crawling page: 62
+[2015-10-09 00:59:48]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:59:49]	Spider:	 Reponse Code:  200
+[2015-10-09 00:59:49]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode62.txt
+[2015-10-09 00:59:49]	Spider:	 Find 10 Snippets
+[2015-10-09 00:59:49]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets62.txt
+[2015-10-09 00:59:49]	Spider:	 Finish Storage
+[2015-10-09 00:59:49]	Spider:	 Finish page # 62
+[2015-10-09 00:59:53]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets62.txt
+[2015-10-09 00:59:53]	MySQL:	 Load 61 words from file Snippets 62
+[2015-10-09 00:59:53]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 00:59:58]	MySQL:	 Current file: Snippets 63
+[2015-10-09 00:59:58]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 00:59:59]	Spider:	 Crawling page: 63
+[2015-10-09 01:00:01]	Spider:	 Reponse Code:  200
+[2015-10-09 01:00:01]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode63.txt
+[2015-10-09 01:00:01]	Spider:	 Find 9 Snippets
+[2015-10-09 01:00:01]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets63.txt
+[2015-10-09 01:00:01]	Spider:	 Finish Storage
+[2015-10-09 01:00:01]	Spider:	 Finish page # 63
+[2015-10-09 01:00:03]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets63.txt
+[2015-10-09 01:00:03]	MySQL:	 Load 72 words from file Snippets 63
+[2015-10-09 01:00:03]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:00:08]	MySQL:	 Current file: Snippets 64
+[2015-10-09 01:00:08]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:00:11]	Spider:	 Crawling page: 64
+[2015-10-09 01:00:12]	Spider:	 Reponse Code:  200
+[2015-10-09 01:00:12]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode64.txt
+[2015-10-09 01:00:12]	Spider:	 Find 10 Snippets
+[2015-10-09 01:00:12]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets64.txt
+[2015-10-09 01:00:12]	Spider:	 Finish Storage
+[2015-10-09 01:00:12]	Spider:	 Finish page # 64
+[2015-10-09 01:00:13]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets64.txt
+[2015-10-09 01:00:13]	MySQL:	 Load 63 words from file Snippets 64
+[2015-10-09 01:00:13]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:00:18]	MySQL:	 Current file: Snippets 65
+[2015-10-09 01:00:18]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:00:22]	Spider:	 Crawling page: 65
+[2015-10-09 01:00:23]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:00:23]	Spider:	 Reponse Code:  200
+[2015-10-09 01:00:23]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode65.txt
+[2015-10-09 01:00:23]	Spider:	 Find 10 Snippets
+[2015-10-09 01:00:23]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets65.txt
+[2015-10-09 01:00:23]	Spider:	 Finish Storage
+[2015-10-09 01:00:23]	Spider:	 Finish page # 65
+[2015-10-09 01:00:28]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets65.txt
+[2015-10-09 01:00:28]	MySQL:	 Load 59 words from file Snippets 65
+[2015-10-09 01:00:28]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:00:33]	MySQL:	 Current file: Snippets 66
+[2015-10-09 01:00:33]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:00:33]	Spider:	 Crawling page: 66
+[2015-10-09 01:00:34]	Spider:	 Reponse Code:  200
+[2015-10-09 01:00:34]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode66.txt
+[2015-10-09 01:00:34]	Spider:	 Find 10 Snippets
+[2015-10-09 01:00:34]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets66.txt
+[2015-10-09 01:00:34]	Spider:	 Finish Storage
+[2015-10-09 01:00:34]	Spider:	 Finish page # 66
+[2015-10-09 01:00:38]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets66.txt
+[2015-10-09 01:00:38]	MySQL:	 Load 60 words from file Snippets 66
+[2015-10-09 01:00:38]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:00:43]	MySQL:	 Current file: Snippets 67
+[2015-10-09 01:00:43]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:00:44]	Spider:	 Crawling page: 67
+[2015-10-09 01:00:46]	Spider:	 Reponse Code:  200
+[2015-10-09 01:00:46]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode67.txt
+[2015-10-09 01:00:46]	Spider:	 Find 10 Snippets
+[2015-10-09 01:00:46]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets67.txt
+[2015-10-09 01:00:46]	Spider:	 Finish Storage
+[2015-10-09 01:00:46]	Spider:	 Finish page # 67
+[2015-10-09 01:00:48]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets67.txt
+[2015-10-09 01:00:48]	MySQL:	 Load 54 words from file Snippets 67
+[2015-10-09 01:00:48]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:00:53]	MySQL:	 Current file: Snippets 68
+[2015-10-09 01:00:53]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:00:56]	Spider:	 Crawling page: 68
+[2015-10-09 01:00:57]	Spider:	 Reponse Code:  200
+[2015-10-09 01:00:57]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode68.txt
+[2015-10-09 01:00:57]	Spider:	 Find 10 Snippets
+[2015-10-09 01:00:57]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets68.txt
+[2015-10-09 01:00:57]	Spider:	 Finish Storage
+[2015-10-09 01:00:57]	Spider:	 Finish page # 68
+[2015-10-09 01:00:58]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets68.txt
+[2015-10-09 01:00:58]	MySQL:	 Load 51 words from file Snippets 68
+[2015-10-09 01:00:58]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:01:03]	MySQL:	 Current file: Snippets 69
+[2015-10-09 01:01:03]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:01:07]	Spider:	 Crawling page: 69
+[2015-10-09 01:01:08]	Spider:	 Reponse Code:  200
+[2015-10-09 01:01:08]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode69.txt
+[2015-10-09 01:01:08]	Spider:	 Find 10 Snippets
+[2015-10-09 01:01:08]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets69.txt
+[2015-10-09 01:01:08]	Spider:	 Finish Storage
+[2015-10-09 01:01:08]	Spider:	 Finish page # 69
+[2015-10-09 01:01:08]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets69.txt
+[2015-10-09 01:01:08]	MySQL:	 Load 61 words from file Snippets 69
+[2015-10-09 01:01:08]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:01:13]	MySQL:	 Current file: Snippets 70
+[2015-10-09 01:01:13]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:01:18]	Spider:	 Crawling page: 70
+[2015-10-09 01:01:18]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:01:19]	Spider:	 Reponse Code:  200
+[2015-10-09 01:01:19]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode70.txt
+[2015-10-09 01:01:19]	Spider:	 Find 10 Snippets
+[2015-10-09 01:01:19]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets70.txt
+[2015-10-09 01:01:19]	Spider:	 Finish Storage
+[2015-10-09 01:01:19]	Spider:	 Finish page # 70
+[2015-10-09 01:01:23]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets70.txt
+[2015-10-09 01:01:23]	MySQL:	 Load 66 words from file Snippets 70
+[2015-10-09 01:01:23]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:01:28]	MySQL:	 Current file: Snippets 71
+[2015-10-09 01:01:28]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:01:29]	Spider:	 Crawling page: 71
+[2015-10-09 01:01:30]	Spider:	 Reponse Code:  200
+[2015-10-09 01:01:30]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode71.txt
+[2015-10-09 01:01:30]	Spider:	 Find 10 Snippets
+[2015-10-09 01:01:30]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets71.txt
+[2015-10-09 01:01:30]	Spider:	 Finish Storage
+[2015-10-09 01:01:30]	Spider:	 Finish page # 71
+[2015-10-09 01:01:33]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets71.txt
+[2015-10-09 01:01:33]	MySQL:	 Load 58 words from file Snippets 71
+[2015-10-09 01:01:33]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:01:38]	MySQL:	 Current file: Snippets 72
+[2015-10-09 01:01:38]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:01:40]	Spider:	 Crawling page: 72
+[2015-10-09 01:01:42]	Spider:	 Reponse Code:  200
+[2015-10-09 01:01:42]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode72.txt
+[2015-10-09 01:01:42]	Spider:	 Find 10 Snippets
+[2015-10-09 01:01:42]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets72.txt
+[2015-10-09 01:01:42]	Spider:	 Finish Storage
+[2015-10-09 01:01:42]	Spider:	 Finish page # 72
+[2015-10-09 01:01:43]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets72.txt
+[2015-10-09 01:01:43]	MySQL:	 Load 66 words from file Snippets 72
+[2015-10-09 01:01:43]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:01:48]	MySQL:	 Current file: Snippets 73
+[2015-10-09 01:01:48]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:01:52]	Spider:	 Crawling page: 73
+[2015-10-09 01:01:53]	Spider:	 Reponse Code:  200
+[2015-10-09 01:01:53]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode73.txt
+[2015-10-09 01:01:53]	Spider:	 Find 10 Snippets
+[2015-10-09 01:01:53]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets73.txt
+[2015-10-09 01:01:53]	Spider:	 Finish Storage
+[2015-10-09 01:01:53]	Spider:	 Finish page # 73
+[2015-10-09 01:01:53]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets73.txt
+[2015-10-09 01:01:54]	MySQL:	 Load 55 words from file Snippets 73
+[2015-10-09 01:01:54]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:01:59]	MySQL:	 Current file: Snippets 74
+[2015-10-09 01:01:59]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:02:03]	Spider:	 Crawling page: 74
+[2015-10-09 01:02:04]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:02:04]	Spider:	 Reponse Code:  200
+[2015-10-09 01:02:04]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode74.txt
+[2015-10-09 01:02:04]	Spider:	 Find 9 Snippets
+[2015-10-09 01:02:04]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets74.txt
+[2015-10-09 01:02:04]	Spider:	 Finish Storage
+[2015-10-09 01:02:04]	Spider:	 Finish page # 74
+[2015-10-09 01:02:09]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets74.txt
+[2015-10-09 01:02:09]	MySQL:	 Load 75 words from file Snippets 74
+[2015-10-09 01:02:09]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:02:14]	MySQL:	 Current file: Snippets 75
+[2015-10-09 01:02:14]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:02:14]	Spider:	 Crawling page: 75
+[2015-10-09 01:02:16]	Spider:	 Reponse Code:  200
+[2015-10-09 01:02:16]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode75.txt
+[2015-10-09 01:02:16]	Spider:	 Find 10 Snippets
+[2015-10-09 01:02:16]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets75.txt
+[2015-10-09 01:02:16]	Spider:	 Finish Storage
+[2015-10-09 01:02:16]	Spider:	 Finish page # 75
+[2015-10-09 01:02:19]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets75.txt
+[2015-10-09 01:02:19]	MySQL:	 Load 59 words from file Snippets 75
+[2015-10-09 01:02:19]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:02:24]	MySQL:	 Current file: Snippets 76
+[2015-10-09 01:02:24]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:02:26]	Spider:	 Crawling page: 76
+[2015-10-09 01:02:27]	Spider:	 Reponse Code:  200
+[2015-10-09 01:02:27]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode76.txt
+[2015-10-09 01:02:27]	Spider:	 Find 10 Snippets
+[2015-10-09 01:02:27]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets76.txt
+[2015-10-09 01:02:27]	Spider:	 Finish Storage
+[2015-10-09 01:02:27]	Spider:	 Finish page # 76
+[2015-10-09 01:02:29]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets76.txt
+[2015-10-09 01:02:29]	MySQL:	 Load 60 words from file Snippets 76
+[2015-10-09 01:02:29]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:02:34]	MySQL:	 Current file: Snippets 77
+[2015-10-09 01:02:34]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:02:37]	Spider:	 Crawling page: 77
+[2015-10-09 01:02:38]	Spider:	 Reponse Code:  200
+[2015-10-09 01:02:38]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode77.txt
+[2015-10-09 01:02:38]	Spider:	 Find 10 Snippets
+[2015-10-09 01:02:38]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets77.txt
+[2015-10-09 01:02:38]	Spider:	 Finish Storage
+[2015-10-09 01:02:38]	Spider:	 Finish page # 77
+[2015-10-09 01:02:39]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets77.txt
+[2015-10-09 01:02:39]	MySQL:	 Load 80 words from file Snippets 77
+[2015-10-09 01:02:39]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:02:44]	MySQL:	 Current file: Snippets 78
+[2015-10-09 01:02:44]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:02:48]	Spider:	 Crawling page: 78
+[2015-10-09 01:02:49]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:02:50]	Spider:	 Reponse Code:  200
+[2015-10-09 01:02:50]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode78.txt
+[2015-10-09 01:02:50]	Spider:	 Find 10 Snippets
+[2015-10-09 01:02:50]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets78.txt
+[2015-10-09 01:02:50]	Spider:	 Finish Storage
+[2015-10-09 01:02:50]	Spider:	 Finish page # 78
+[2015-10-09 01:02:54]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets78.txt
+[2015-10-09 01:02:54]	MySQL:	 Load 65 words from file Snippets 78
+[2015-10-09 01:02:54]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:02:59]	MySQL:	 Current file: Snippets 79
+[2015-10-09 01:02:59]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:03:00]	Spider:	 Crawling page: 79
+[2015-10-09 01:03:01]	Spider:	 Reponse Code:  200
+[2015-10-09 01:03:01]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode79.txt
+[2015-10-09 01:03:01]	Spider:	 Find 10 Snippets
+[2015-10-09 01:03:01]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets79.txt
+[2015-10-09 01:03:01]	Spider:	 Finish Storage
+[2015-10-09 01:03:01]	Spider:	 Finish page # 79
+[2015-10-09 01:03:04]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets79.txt
+[2015-10-09 01:03:04]	MySQL:	 Load 86 words from file Snippets 79
+[2015-10-09 01:03:04]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:03:09]	MySQL:	 Current file: Snippets 80
+[2015-10-09 01:03:09]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:03:11]	Spider:	 Crawling page: 80
+[2015-10-09 01:03:13]	Spider:	 Reponse Code:  200
+[2015-10-09 01:03:13]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode80.txt
+[2015-10-09 01:03:13]	Spider:	 Find 10 Snippets
+[2015-10-09 01:03:13]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets80.txt
+[2015-10-09 01:03:13]	Spider:	 Finish Storage
+[2015-10-09 01:03:13]	Spider:	 Finish page # 80
+[2015-10-09 01:03:14]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets80.txt
+[2015-10-09 01:03:14]	MySQL:	 Load 92 words from file Snippets 80
+[2015-10-09 01:03:14]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:03:19]	MySQL:	 Current file: Snippets 81
+[2015-10-09 01:03:19]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:03:23]	Spider:	 Crawling page: 81
+[2015-10-09 01:03:24]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:03:25]	Spider:	 Reponse Code:  200
+[2015-10-09 01:03:25]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode81.txt
+[2015-10-09 01:03:25]	Spider:	 Find 10 Snippets
+[2015-10-09 01:03:25]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets81.txt
+[2015-10-09 01:03:25]	Spider:	 Finish Storage
+[2015-10-09 01:03:25]	Spider:	 Finish page # 81
+[2015-10-09 01:03:29]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets81.txt
+[2015-10-09 01:03:29]	MySQL:	 Load 73 words from file Snippets 81
+[2015-10-09 01:03:29]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:03:34]	MySQL:	 Current file: Snippets 82
+[2015-10-09 01:03:34]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:03:35]	Spider:	 Crawling page: 82
+[2015-10-09 01:03:36]	Spider:	 Reponse Code:  200
+[2015-10-09 01:03:36]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode82.txt
+[2015-10-09 01:03:36]	Spider:	 Find 10 Snippets
+[2015-10-09 01:03:36]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets82.txt
+[2015-10-09 01:03:36]	Spider:	 Finish Storage
+[2015-10-09 01:03:36]	Spider:	 Finish page # 82
+[2015-10-09 01:03:39]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets82.txt
+[2015-10-09 01:03:39]	MySQL:	 Load 76 words from file Snippets 82
+[2015-10-09 01:03:39]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:03:44]	MySQL:	 Current file: Snippets 83
+[2015-10-09 01:03:44]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:03:46]	Spider:	 Crawling page: 83
+[2015-10-09 01:03:48]	Spider:	 Reponse Code:  200
+[2015-10-09 01:03:48]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode83.txt
+[2015-10-09 01:03:48]	Spider:	 Find 10 Snippets
+[2015-10-09 01:03:48]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets83.txt
+[2015-10-09 01:03:48]	Spider:	 Finish Storage
+[2015-10-09 01:03:48]	Spider:	 Finish page # 83
+[2015-10-09 01:03:49]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets83.txt
+[2015-10-09 01:03:49]	MySQL:	 Load 56 words from file Snippets 83
+[2015-10-09 01:03:49]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:03:54]	MySQL:	 Current file: Snippets 84
+[2015-10-09 01:03:54]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:03:58]	Spider:	 Crawling page: 84
+[2015-10-09 01:03:59]	Spider:	 Reponse Code:  200
+[2015-10-09 01:03:59]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode84.txt
+[2015-10-09 01:03:59]	Spider:	 Find 10 Snippets
+[2015-10-09 01:03:59]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets84.txt
+[2015-10-09 01:03:59]	Spider:	 Finish Storage
+[2015-10-09 01:03:59]	Spider:	 Finish page # 84
+[2015-10-09 01:03:59]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets84.txt
+[2015-10-09 01:03:59]	MySQL:	 Load 87 words from file Snippets 84
+[2015-10-09 01:03:59]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:04:04]	MySQL:	 Current file: Snippets 85
+[2015-10-09 01:04:04]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:04:09]	Spider:	 Crawling page: 85
+[2015-10-09 01:04:09]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:04:10]	Spider:	 Reponse Code:  200
+[2015-10-09 01:04:10]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode85.txt
+[2015-10-09 01:04:10]	Spider:	 Find 9 Snippets
+[2015-10-09 01:04:10]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets85.txt
+[2015-10-09 01:04:10]	Spider:	 Finish Storage
+[2015-10-09 01:04:10]	Spider:	 Finish page # 85
+[2015-10-09 01:04:14]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets85.txt
+[2015-10-09 01:04:14]	MySQL:	 Load 52 words from file Snippets 85
+[2015-10-09 01:04:14]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:04:19]	MySQL:	 Current file: Snippets 86
+[2015-10-09 01:04:19]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:04:20]	Spider:	 Crawling page: 86
+[2015-10-09 01:04:22]	Spider:	 Reponse Code:  200
+[2015-10-09 01:04:22]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode86.txt
+[2015-10-09 01:04:22]	Spider:	 Find 10 Snippets
+[2015-10-09 01:04:22]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets86.txt
+[2015-10-09 01:04:22]	Spider:	 Finish Storage
+[2015-10-09 01:04:22]	Spider:	 Finish page # 86
+[2015-10-09 01:04:24]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets86.txt
+[2015-10-09 01:04:24]	MySQL:	 Load 121 words from file Snippets 86
+[2015-10-09 01:04:24]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:04:29]	MySQL:	 Current file: Snippets 87
+[2015-10-09 01:04:29]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:04:32]	Spider:	 Crawling page: 87
+[2015-10-09 01:04:33]	Spider:	 Reponse Code:  200
+[2015-10-09 01:04:33]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode87.txt
+[2015-10-09 01:04:33]	Spider:	 Find 10 Snippets
+[2015-10-09 01:04:33]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets87.txt
+[2015-10-09 01:04:33]	Spider:	 Finish Storage
+[2015-10-09 01:04:33]	Spider:	 Finish page # 87
+[2015-10-09 01:04:34]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets87.txt
+[2015-10-09 01:04:34]	MySQL:	 Load 153 words from file Snippets 87
+[2015-10-09 01:04:34]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:04:39]	MySQL:	 Current file: Snippets 88
+[2015-10-09 01:04:39]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:04:43]	Spider:	 Crawling page: 88
+[2015-10-09 01:04:44]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:04:44]	Spider:	 Reponse Code:  200
+[2015-10-09 01:04:44]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode88.txt
+[2015-10-09 01:04:44]	Spider:	 Find 10 Snippets
+[2015-10-09 01:04:44]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets88.txt
+[2015-10-09 01:04:44]	Spider:	 Finish Storage
+[2015-10-09 01:04:44]	Spider:	 Finish page # 88
+[2015-10-09 01:04:49]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets88.txt
+[2015-10-09 01:04:49]	MySQL:	 Load 98 words from file Snippets 88
+[2015-10-09 01:04:49]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:04:54]	Spider:	 Crawling page: 89
+[2015-10-09 01:04:54]	MySQL:	 Current file: Snippets 89
+[2015-10-09 01:04:54]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:04:56]	Spider:	 Reponse Code:  200
+[2015-10-09 01:04:56]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode89.txt
+[2015-10-09 01:04:56]	Spider:	 Find 10 Snippets
+[2015-10-09 01:04:56]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets89.txt
+[2015-10-09 01:04:56]	Spider:	 Finish Storage
+[2015-10-09 01:04:56]	Spider:	 Finish page # 89
+[2015-10-09 01:04:59]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets89.txt
+[2015-10-09 01:05:00]	MySQL:	 Load 158 words from file Snippets 89
+[2015-10-09 01:05:00]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:05:05]	MySQL:	 Current file: Snippets 90
+[2015-10-09 01:05:05]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:05:06]	Spider:	 Crawling page: 90
+[2015-10-09 01:05:07]	Spider:	 Reponse Code:  200
+[2015-10-09 01:05:07]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode90.txt
+[2015-10-09 01:05:07]	Spider:	 Find 10 Snippets
+[2015-10-09 01:05:07]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets90.txt
+[2015-10-09 01:05:07]	Spider:	 Finish Storage
+[2015-10-09 01:05:07]	Spider:	 Finish page # 90
+[2015-10-09 01:05:10]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets90.txt
+[2015-10-09 01:05:10]	MySQL:	 Load 102 words from file Snippets 90
+[2015-10-09 01:05:10]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:05:15]	MySQL:	 Current file: Snippets 91
+[2015-10-09 01:05:15]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:05:17]	Spider:	 Crawling page: 91
+[2015-10-09 01:05:18]	Spider:	 Reponse Code:  200
+[2015-10-09 01:05:18]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode91.txt
+[2015-10-09 01:05:18]	Spider:	 Find 10 Snippets
+[2015-10-09 01:05:18]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets91.txt
+[2015-10-09 01:05:18]	Spider:	 Finish Storage
+[2015-10-09 01:05:18]	Spider:	 Finish page # 91
+[2015-10-09 01:05:20]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets91.txt
+[2015-10-09 01:05:20]	MySQL:	 Load 123 words from file Snippets 91
+[2015-10-09 01:05:20]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:05:25]	MySQL:	 Current file: Snippets 92
+[2015-10-09 01:05:25]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:05:28]	Spider:	 Crawling page: 92
+[2015-10-09 01:05:30]	Spider:	 Reponse Code:  200
+[2015-10-09 01:05:30]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode92.txt
+[2015-10-09 01:05:30]	Spider:	 Find 10 Snippets
+[2015-10-09 01:05:30]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets92.txt
+[2015-10-09 01:05:30]	Spider:	 Finish Storage
+[2015-10-09 01:05:30]	Spider:	 Finish page # 92
+[2015-10-09 01:05:30]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets92.txt
+[2015-10-09 01:05:30]	MySQL:	 Load 121 words from file Snippets 92
+[2015-10-09 01:05:30]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:05:35]	MySQL:	 Current file: Snippets 93
+[2015-10-09 01:05:35]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:05:40]	Spider:	 Crawling page: 93
+[2015-10-09 01:05:40]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:05:41]	Spider:	 Reponse Code:  200
+[2015-10-09 01:05:41]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode93.txt
+[2015-10-09 01:05:41]	Spider:	 Find 10 Snippets
+[2015-10-09 01:05:41]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets93.txt
+[2015-10-09 01:05:41]	Spider:	 Finish Storage
+[2015-10-09 01:05:41]	Spider:	 Finish page # 93
+[2015-10-09 01:05:45]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets93.txt
+[2015-10-09 01:05:45]	MySQL:	 Load 131 words from file Snippets 93
+[2015-10-09 01:05:45]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:05:50]	MySQL:	 Current file: Snippets 94
+[2015-10-09 01:05:50]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:05:51]	Spider:	 Crawling page: 94
+[2015-10-09 01:05:53]	Spider:	 Reponse Code:  200
+[2015-10-09 01:05:53]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode94.txt
+[2015-10-09 01:05:53]	Spider:	 Find 10 Snippets
+[2015-10-09 01:05:53]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets94.txt
+[2015-10-09 01:05:53]	Spider:	 Finish Storage
+[2015-10-09 01:05:53]	Spider:	 Finish page # 94
+[2015-10-09 01:05:55]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets94.txt
+[2015-10-09 01:05:55]	MySQL:	 Load 100 words from file Snippets 94
+[2015-10-09 01:05:55]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:06:00]	MySQL:	 Current file: Snippets 95
+[2015-10-09 01:06:00]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:06:03]	Spider:	 Crawling page: 95
+[2015-10-09 01:06:04]	Spider:	 Reponse Code:  200
+[2015-10-09 01:06:04]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode95.txt
+[2015-10-09 01:06:04]	Spider:	 Find 10 Snippets
+[2015-10-09 01:06:04]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets95.txt
+[2015-10-09 01:06:04]	Spider:	 Finish Storage
+[2015-10-09 01:06:04]	Spider:	 Finish page # 95
+[2015-10-09 01:06:05]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets95.txt
+[2015-10-09 01:06:05]	MySQL:	 Load 89 words from file Snippets 95
+[2015-10-09 01:06:05]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:06:10]	MySQL:	 Current file: Snippets 96
+[2015-10-09 01:06:10]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:06:14]	Spider:	 Crawling page: 96
+[2015-10-09 01:06:15]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:06:15]	Spider:	 Reponse Code:  200
+[2015-10-09 01:06:15]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode96.txt
+[2015-10-09 01:06:15]	Spider:	 Find 10 Snippets
+[2015-10-09 01:06:15]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets96.txt
+[2015-10-09 01:06:15]	Spider:	 Finish Storage
+[2015-10-09 01:06:15]	Spider:	 Finish page # 96
+[2015-10-09 01:06:20]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets96.txt
+[2015-10-09 01:06:20]	MySQL:	 Load 155 words from file Snippets 96
+[2015-10-09 01:06:20]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:06:25]	MySQL:	 Current file: Snippets 97
+[2015-10-09 01:06:25]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:06:25]	Spider:	 Crawling page: 97
+[2015-10-09 01:06:27]	Spider:	 Reponse Code:  200
+[2015-10-09 01:06:27]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode97.txt
+[2015-10-09 01:06:27]	Spider:	 Find 10 Snippets
+[2015-10-09 01:06:27]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets97.txt
+[2015-10-09 01:06:27]	Spider:	 Finish Storage
+[2015-10-09 01:06:27]	Spider:	 Finish page # 97
+[2015-10-09 01:06:30]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets97.txt
+[2015-10-09 01:06:30]	MySQL:	 Load 150 words from file Snippets 97
+[2015-10-09 01:06:30]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:06:35]	MySQL:	 Current file: Snippets 98
+[2015-10-09 01:06:35]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:06:37]	Spider:	 Crawling page: 98
+[2015-10-09 01:06:38]	Spider:	 Reponse Code:  200
+[2015-10-09 01:06:38]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode98.txt
+[2015-10-09 01:06:38]	Spider:	 Find 10 Snippets
+[2015-10-09 01:06:38]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets98.txt
+[2015-10-09 01:06:38]	Spider:	 Finish Storage
+[2015-10-09 01:06:38]	Spider:	 Finish page # 98
+[2015-10-09 01:06:40]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets98.txt
+[2015-10-09 01:06:40]	MySQL:	 Load 108 words from file Snippets 98
+[2015-10-09 01:06:40]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:06:45]	MySQL:	 Current file: Snippets 99
+[2015-10-09 01:06:45]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:06:48]	Spider:	 Crawling page: 99
+[2015-10-09 01:06:50]	Spider:	 Reponse Code:  200
+[2015-10-09 01:06:50]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode99.txt
+[2015-10-09 01:06:50]	Spider:	 Find 10 Snippets
+[2015-10-09 01:06:50]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets99.txt
+[2015-10-09 01:06:50]	Spider:	 Finish Storage
+[2015-10-09 01:06:50]	Spider:	 Finish page # 99
+[2015-10-09 01:06:50]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets99.txt
+[2015-10-09 01:06:50]	MySQL:	 Load 142 words from file Snippets 99
+[2015-10-09 01:06:50]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:06:55]	MySQL:	 Current file: Snippets 100
+[2015-10-09 01:06:55]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:07:00]	Spider:	 Crawling page: 100
+[2015-10-09 01:07:00]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:07:01]	Spider:	 Reponse Code:  200
+[2015-10-09 01:07:01]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode100.txt
+[2015-10-09 01:07:01]	Spider:	 Find 10 Snippets
+[2015-10-09 01:07:01]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets100.txt
+[2015-10-09 01:07:01]	Spider:	 Finish Storage
+[2015-10-09 01:07:01]	Spider:	 Finish page # 100
+[2015-10-09 01:07:05]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets100.txt
+[2015-10-09 01:07:05]	MySQL:	 Load 148 words from file Snippets 100
+[2015-10-09 01:07:05]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:07:10]	MySQL:	 Current file: Snippets 101
+[2015-10-09 01:07:10]	MySQL:	 Fail to access the file, wait for 5 seconds
+[2015-10-09 01:07:11]	Spider:	 Crawling page: 101
+[2015-10-09 01:07:12]	Spider:	 Reponse Code:  200
+[2015-10-09 01:07:12]	Spider:	 Store the source code at /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/source/SourceCode101.txt
+[2015-10-09 01:07:12]	Spider:	 Find 9 Snippets
+[2015-10-09 01:07:12]	Spider:	 OpenFile: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets101.txt
+[2015-10-09 01:07:12]	Spider:	 Finish Storage
+[2015-10-09 01:07:12]	Spider:	 Finish page # 101
+[2015-10-09 01:07:15]	MySQL:	 Start to read file: /Users/kuerii/Documents/GitHub/Python-Crawler/linkedin/dig/Snippets101.txt
+[2015-10-09 01:07:16]	MySQL:	 Load 111 words from file Snippets 101
+[2015-10-09 01:07:16]	MySQL:	 Wait for 5 seconds to access the next file
+[2015-10-09 01:07:21]	MySQL:	 Load all files
+[2015-10-09 01:07:21]	MySQL:	 Disconnect from MySQL
+Stop Missions by Admin

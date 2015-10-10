@@ -13,21 +13,16 @@ import os
 import time
 import sys
 import tool
-from threading import Thread
 
-class Spider(Thread):
+class Spider(object):
 
 	#Initialize
-	def __init__(self, f_handler, start_num, total_num):
-		Thread.__init__(self)
-		self.start_num = start_num
-		self.total_num = total_num
+	def __init__(self):
+		self.page_num = 1
+		self.total_num = 2
 		self.client = None
-		self.userID = 'useID'
-		self.pwd = 'pws'
-		self.thread_stop = False
-		self.f_handler = f_handler
-		self.timer = 0
+		self.userID = 'User'
+		self.pwd = 'pwd'
 
 	#Login Linkedin and store Session info
 	def loginLinkedin(self):
@@ -47,7 +42,7 @@ class Spider(Thread):
 
 	#Get current time
 	def getCurrentTime(self):
-		return time.strftime('[%Y-%m-%d %H:%M:%S]',time.localtime(time.time())) + "\tSpider:\t"
+		return time.strftime('[%Y-%m-%d %H:%M:%S]',time.localtime(time.time()))
 
 	#Create the target LOGIN_URL
 	def getPageURLByNum(self, page_num):
@@ -73,7 +68,7 @@ class Spider(Thread):
 	#Store the source code from response
 	def storeSourceCode(self, text, page_num):
 		fileDir = os.path.dirname(os.path.realpath('__file__'))
-		filename = os.path.join(fileDir, 'source/SourceCode'+ str(page_num) + '.html')
+		filename = os.path.join(fileDir, 'source/SourceCode'+ str(page_num) + '.txt')
 		f = open(filename,'w')
 		f.write(text)
 		f.close
@@ -110,36 +105,33 @@ class Spider(Thread):
 
 	#Check user status
 	def isLogedOut(self, text):
-		keyLogout = re.compile('login-submit')
+		keyLogout = re.compile('login_reg_redirect')
 		items = re.findall(keyLogout, text)
 		return len(items) > 0
 
 
 	#Main
-	def run(self):
-		sys.stdout = self.f_handler
+	def main(self):
+		f_handler = open('spider.log', 'w')
+		sys.stdout = f_handler
 		print(self.getCurrentTime(), "Start to login Linkedin")
 		self.client = self.loginLinkedin()
 		print(self.getCurrentTime(), "Get the session")
 		print (self.getCurrentTime(), "Crawler is running")
-		page_num = self.start_num
-		while page_num <= self.total_num:
-			print (self.getCurrentTime(), "Crawling page:", page_num)
+
+		self.page_num = 1
+		while self.page_num <= self.total_num:
+			print (self.getCurrentTime(), "Crawling page:", self.page_num)
 			try:
-				statusCorrect = self.getPages(page_num, self.client)
+				statusCorrect = self.getPages(self.page_num, self.client)
 				if statusCorrect:
-					page_num += 1
+					self.page_num += 1
 				else:
-					print(self.getCurrentTime(), "Some problem with page#", page_num, ". Try again later")
+					print(self.getCurrentTime(), "Some problem with page#", self.page_num, ". Try again later")
 				time.sleep(10)
-
-				if self.thread_stop:
-					print(self.getCurrentTime(), "Stop because of thread")
-					return
-
 			except Exception as e:
 				print (self.getCurrentTime(), "Exception:", e)
 		print(self.getCurrentTime(), "Finish all pages")
 
-	def stop(self):
-		self.thread_stop = True
+spider = Spider()
+spider.main()

@@ -4,26 +4,22 @@ import pymysql.cursors
 import time
 import os
 import sys
-from threading import Thread
 
-class Mysql(Thread):
+class Mysql(object):
 
 	#Initial Connection
-	def __init__(self, f_handler, start_num, total_page):
-		Thread.__init__(self)
+	def __init__(self):
+		#catch Exception here
 		self.connection = pymysql.connect(host = '127.0.0.1', user = 'admin', \
 			password = '', db = 'test', charset = 'utf8mb4', \
 			cursorclass = pymysql.cursors.DictCursor)
 		self.cursor = self.connection.cursor()
-		self.total_page = total_page
-		self.gapTime = 2
-		self.thread_stop = False
-		self.f_handler = f_handler
-		self.start_num = start_num
+		self.total_page = 3
+		self.gapTime = 5
 
 	#Get Current time
 	def getCurrentTime(self):
-		return time.strftime('[%Y-%m-%d %H:%M:%S]',time.localtime(time.time())) + "\tMySQL:\t"
+		return time.strftime('[%Y-%m-%d %H:%M:%S]',time.localtime(time.time()))
 
 	#Insert data or update
 	def insertData(self, word):
@@ -36,23 +32,22 @@ class Mysql(Thread):
 		except Exception as e:
 			self.connection.rollback()
 			print (self.getCurrentTime(), "Exception:", e)
+		
+		finally:
+			self.connection.close()
+
 
     #Read the stored file
 	def readFile(self):
 		fileDir = os.path.dirname(os.path.realpath('__file__'))
-		for page_num in range(self.start_num, self.total_page + 1):
+		for page_num in range(1, self.total_page):
 			filename = os.path.join(fileDir, 'dig/Snippets'+ str(page_num) + '.txt')
-			print(self.getCurrentTime(), "Current file: Snippets", str(page_num))
+			print(self.getCurrentTime(), "Start to access file:", filename)
 
-			while not self.thread_stop and (not os.path.isfile(filename) or not os.access(filename, os.R_OK)):
+			while not os.path.isfile(filename) or not os.access(filename, os.R_OK):
 				print(self.getCurrentTime(), "Fail to access the file, wait for",self.gapTime,"seconds")
 				time.sleep(self.gapTime)
 
-			if self.thread_stop:
-				print(self.getCurrentTime(), "Stoped because of thread")
-				return
-
-			print (self.getCurrentTime(), "Start to read file:", filename)
 			f = open(filename, 'r')
 			count = 0
 
@@ -64,7 +59,8 @@ class Mysql(Thread):
 			print(self.getCurrentTime(), "Wait for",self.gapTime,"seconds to access the next file")
 			time.sleep(self.gapTime)
 			
-		print(self.getCurrentTime(), "Load all files")
+		self.connection.close()
+		print(self.getCurrentTime(), "Load all files, already disconnect the database")
 
 	#Return the word from file
 	def wordGenerator(self, data):
@@ -72,16 +68,12 @@ class Mysql(Thread):
 			for word in line.split():
 				yield word.strip()
 
-	#Run
-	def run(self):
-		sys.stdout = self.f_handler
+	#main
+	def main(self):
+		f_handler = open('MySQLConnection.log', 'w')
+		sys.stdout = f_handler
 		print(self.getCurrentTime(), "Start to transfer data into MySQL")
 		self.readFile()
-		self.connection.close()
-		print(self.getCurrentTime(), "Disconnect from MySQL")
 
-
-	#stop
-	def stop(self):
-		self.thread_stop = True
-
+mysql = Mysql()
+mysql.main()
