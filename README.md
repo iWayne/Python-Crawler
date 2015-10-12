@@ -4,7 +4,7 @@ _Last Updated: Mon., Oct. 12th, 2015  @ 11:30A_
 
 Welcome!
 
-This repository contains some crawlers' source code for crawling jokes from ![qiushibaike.com](www.qiushibaike.com) and search reuslt for LinkedIn search page.
+This repository contains some crawlers' source code for crawling jokes from [qiushibaike.com](www.qiushibaike.com) and search reuslt for LinkedIn search page.
 
 ____
 
@@ -20,7 +20,7 @@ ____
 
 #### QSBK floder:
 
-The python program used to crawl the jokes from ![qiushibaike.com](www.qiushibaike.com). Fetch next joke by pressing Enter button. and quit by entering 'Q'.
+The python program used to crawl the jokes from [qiushibaike.com](www.qiushibaike.com). Fetch next joke by pressing Enter button. and quit by entering 'Q'.
 
 
 ####Linkedin
@@ -38,5 +38,6 @@ ____
 
 ###REFERENCE
 
- -![Tutor](http://cuiqingcai.com/1052.html)
- -![Pymysql](https://github.com/PyMySQL/PyMySQL)
+ -[Tutor](http://cuiqingcai.com/1052.html)
+ 
+ -[Pymysql](https://github.com/PyMySQL/PyMySQL)
