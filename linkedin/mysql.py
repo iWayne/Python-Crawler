@@ -70,7 +70,7 @@ class Mysql(Thread):
 	def wordGenerator(self, data):
 		for line in data:
 			for word in line.split():
-				yield word.strip()
+				yield word.strip().lower()
 
 	#Run
 	def run(self):

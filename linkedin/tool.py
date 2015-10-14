@@ -32,7 +32,7 @@ class Tool(object):
 			if item[0] == 'Summary':
 				str = item[1] + 'eeking' + item[2]
 		str = re.sub(self.removePunc," ", str)
-		return str.strip()
+		return str.strip().lower()
 
 
 
